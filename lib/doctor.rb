@@ -13,6 +13,7 @@ class Doctor
   end
 
   def new_appointment(date, patient)
+    #creates new Appointmnt (class instance). Appt should know it belongs to this doctor
   end
 
 end
