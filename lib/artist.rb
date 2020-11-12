@@ -1,3 +1,5 @@
+require 'pry'
+
 class Artist
   attr_accessor :name
 
@@ -13,6 +15,7 @@ class Artist
   end
 
   def songs
+    binding.pry
     Song.all select do |each_song|
       each_song.artist == self
     end
