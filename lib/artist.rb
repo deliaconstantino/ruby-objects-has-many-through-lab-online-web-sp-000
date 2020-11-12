@@ -26,7 +26,7 @@ class Artist
 
   def genres
     song_by_self = Song.all.select { |song| song.artist == self }
-    song_by_self.collect { |genre| song.genre }
+    song_by_self.collect { |genre| genre.genre }
 
   end
 
