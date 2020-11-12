@@ -28,5 +28,4 @@ class Doctor
       appt.patient
     end
   end
-
 end
