@@ -19,5 +19,6 @@ class Genre
   end
 
   def artists
+    Song.all.select do 
   end
 end
