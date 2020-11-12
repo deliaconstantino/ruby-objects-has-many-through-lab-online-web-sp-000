@@ -13,8 +13,8 @@ class Artist
   end
 
   def songs
-    Song.all select do |song|
-      song.artist == self
+    Song.all select do |each_song|
+      each_song.artist == self
     end
   end
 
