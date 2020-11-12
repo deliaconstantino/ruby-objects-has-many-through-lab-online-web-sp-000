@@ -1,3 +1,7 @@
 class Appointment
 
+  @@all = []
+
+  
+
 end
